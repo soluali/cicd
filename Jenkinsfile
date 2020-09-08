@@ -15,7 +15,6 @@ pipeline {
             echo "Hello Test!"
             sh 'echo  Hello Testing!'
             sh "ls && pwd"
-            sh "docker -v"
           }
         }    
     }

@@ -1,8 +1,0 @@
-version: '3.6'
-
-services:
-  nginx:
-    image: nginx:latest
-    container_name: nginx_cicd_demofactory
-    ports:
-      - 4001:80
